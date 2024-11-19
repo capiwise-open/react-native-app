@@ -1,0 +1,33 @@
+let config = {
+    dev: {
+        API_URL: process.env.EXPO_PUBLIC_API_URL
+    },
+    production: {
+        API_URL: process.env.EXPO_PUBLIC_PRO_API_URL
+    },
+    TWELVE_API: process.env.EXPO_PUBLIC_TWELVE_API,
+    TWELVE_API_KEY: process.env.EXPO_PUBLIC_TWELVE_API_KEY,
+
+    MARKETAUX_API: process.env.EXPO_PUBLIC_MARKETAUX_API,
+    MARKETAUX_API_KEY: process.env.EXPO_PUBLIC_MARKETAUX_API_KEY,
+
+    FEAR_GREED_RAPID_API: process.env.EXPO_PUBLIC_FEAR_GREED_RAPID_API,
+    X_RAPIDAPI_KEY: process.env.EXPO_PUBLIC_X_RAPIDAPI_KEY,
+    X_RAPIDAPI_HOST: process.env.EXPO_PUBLIC_X_RAPIDAPI_HOST,
+
+    COIN_API: process.env.EXPO_PUBLIC_COIN_API,
+    COIN_API_KEY: process.env.EXPO_PUBLIC_COIN_API_KEY,
+
+    GOOGLE_CLIENT_ID: process.env.EXPO_PUBLIC_GOOGLE_CLIENT_ID,
+
+    SANITY_DSN: process.env.EXPO_PUBLIC_SANITY_DSN,
+
+    STRAPI_API: process.env.EXPO_PUBLIC_STRAPI_API,
+    DEV_STRAPI_API: process.env.EXPO_PUBLIC_DEV_STRAPI_API,
+    DEV_STRAPI_HOST: process.env.EXPO_PUBLIC_DEV_STRAPI_HOST,
+
+    STRAPI_TOKEN: process.env.EXPO_PUBLIC_STRAPI_TOKEN,
+    DEV_STRAPI_TOKEN: process.env.EXPO_PUBLIC_DEV_STRAPI_TOKEN
+}
+
+export default config;

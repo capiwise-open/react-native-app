@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Capiwise",
+    "slug": "capiwise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/img/logo_capiwise.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/img/logo_capiwise.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.capiwise",
+      "googleServicesFile": "./android/app/google-services.json",
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8ee8e95-3105-487b-9afe-3a18317e4d2f"
+      }
+    },
+    "owner": "alexandersack29",
+    "notification": {
+      "icon": "./src/assets/img/logo_capiwise.png",
+      "color": "#fff"
+    }
+  }
+}
